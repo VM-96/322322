@@ -1,0 +1,13 @@
+# MVP «Информирование при ЧС» — зависимости Python
+# Установка: pip install -r requirements.txt
+
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+sqlalchemy>=2.0.25
+python-multipart>=0.0.6
+jinja2>=3.1.3
+bcrypt>=4.0.0
+itsdangerous>=2.1.2
+
+# Для перехода на PostgreSQL: pip install psycopg2-binary
+# и в .env указать DATABASE_URL=postgresql+psycopg2://user:pass@host/dbname
